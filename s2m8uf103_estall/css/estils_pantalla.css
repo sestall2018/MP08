@@ -1,0 +1,269 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:#e6e8eb;
+  font-family: 'Lucida Grande',Tahoma, San Francisco, Roboto, Segoe UI;
+}
+
+a{
+  text-decoration: none;
+  color:##3B5998;
+}
+a:hover{
+  font-weight:bold;
+  color:##3B5998;
+  text-decoration: none;
+}
+
+#portada{
+  height:313px;
+  background-image:url(../img/portada.jpg);
+  margin-top:43px;
+}
+
+#nom{
+  width:300px;
+  position:relative;
+  top:258px;
+  left:200px;
+  color:white;
+  text-shadow: 0 0 2px #000;
+
+}
+
+#perfil{
+  background-color:yellow;
+  border:solid 4px white;
+  border-radius:4px;
+  position:relative;
+  left:16px;
+  top:120px;
+  box-shadow:0 0 3px #000;
+}
+
+#barra{
+  width:100%;
+  height:43px;
+  background-color:#3B5998;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:25;
+
+}
+
+#contenidor{
+  height:2000px;
+  width:852px;
+  background-color:#FFF;
+  margin:0 auto;
+
+}
+
+#img{
+  width:852px;
+  height:314px;
+}
+
+#menu{
+  height:44px;
+  background-color:#e6e8eb;
+  padding:0;
+  margin: 0 0 0 192px;
+  width:475px;
+
+}
+
+#menu li{
+  float:left;
+  padding:0 18px;
+  display:block;
+  font-weight:bold;
+  color:#334f8d;
+  background-color:#fff;
+  margin:0 0 0 1px;
+  height:44px;
+  line-height:44px;
+}
+
+#menu li:hover{
+  color:#000;
+  background-image:url(../img/select.gif);
+  background-repeat:no-repeat;
+  background-position:50% 37px;
+}
+
+#contingut{
+  border-top:solid 1px #e6e8eb;
+}
+#contingut hr{
+  margin-top:-2px;
+  margin-bottom:2px;
+}
+
+.esquerra{
+  width:323px;
+  background-color: #fff;
+  margin:10px 0;
+  border:solid 1px #AAA;
+  border-radius:3px;
+}
+
+.esquerra h4 {
+  height:14px;
+  padding:5px;
+  font-weight:normal;
+  font-size:18px;
+  text-indent:36px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  margin:0;
+}
+
+.esquerra ul{
+  margin-top:10px;
+}
+
+
+#presentacio li{
+
+  font-family
+  font-family: 'Lucida Grande',Tahoma, San Francisco, Roboto, Segoe UI;
+  height:30px;
+}
+
+#presentacio .estudia{
+  list-style-image:url("../img/icones_estudis.png");
+}
+
+#presentacio .viu{
+  list-style-image:url("../img/icones_domicili.png");
+}
+
+#presentacio .treballa{
+  list-style-image:url("../img/icones_feina.png");
+}
+
+.relacio{
+  list-style-image: url("../img/icones_sentimental.png");
+}
+
+.aniversari{
+  list-style-image:url("../img/icones_esdeveniments.png");
+}
+
+#fotos h4{
+  background-position: 0 -24px;
+}
+
+#fotos ul li{
+  background-color:green;
+  display:block;
+  float:left;
+  width:99px;
+  height:99px;
+  margin:4px;
+  color:transparent;
+}
+
+#fotos ul{
+  overflow:hidden;
+  margin:0;
+  padding:0;
+}
+
+
+#f01{
+  background-image:url("../img/fotos/f01.jpg");
+}
+#fotos ul li:hover{
+  opacity:0.7;
+  background-color:gray;
+  border-radius:5px;
+}
+#f02{
+  background-image:url("../img/fotos/f02.jpg");
+}
+#f03{
+  background-image:url("../img/fotos/f03.jpg");
+}
+#f04{
+  background-image:url("../img/fotos/f04.jpg");
+}
+#f05{
+  background-image:url("../img/fotos/f05.jpg");
+}
+#f06{
+  background-image:url("../img/fotos/f06.jpg");
+}
+#f07{
+  background-image:url("../img/fotos/f07.jpg");
+}
+#f08{
+  background-image:url("../img/fotos/f08.jpg");
+}
+#f09{
+  background-image:url("../img/fotos/f09.jpg");
+}
+/*amics*/
+#amics h4{
+  background-position: 0 -24px;
+}
+
+#amics ul li{
+  background-color:green;
+  display:block;
+  float:left;
+  width:99px;
+  height:99px;
+  margin:4px;
+  color:white;
+  background-size:99px 99px;
+  line-height:178px;
+  text-shadow: 0 0 2px #000;
+  text-indent:5px;
+}
+
+#amics ul{
+  overflow:hidden;
+  margin:0;
+  padding:0;
+}
+#amics ul li:hover{
+  opacity:0.7;
+  background-color:gray;
+  border-radius:5px;
+
+}
+#a01{
+  background-image:url("../img/perfil.jpg");
+}
+#a02{
+  background-image:url("../img/perfil.jpg")
+}
+#a03{
+  background-image:url(https://npedraza2018.github.io/MP08/s2m8uf103_pedraza/img/perfil.jpg)
+}
+#a04{
+  background-image:url("../img/perfil.jpg")
+}
+#a05{
+  background-image:url("../img/perfil.jpg")
+}
+#a06{
+  background-image:url(https://jricart2018.github.io/MP08/s2m8uf103_ricart/img/perfil.jpg)
+}
+#a07{
+  background-image:url("../img/perfil.jpg")
+}
+#a08{
+  background-image:url("../img/perfil.jpg")
+}
+#a09{
+  background-image:url(https://amanchon2018.github.io/MP08/s2m8uf103_manchon/img/perfil.jpg)
+}
+
+#amics h4{
+  background-position: 0 -48px;
+}
