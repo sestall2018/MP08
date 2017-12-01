@@ -72,7 +72,10 @@ a:hover{
   padding:0;
   margin: 0 0 0 192px;
   width:475px;
+}
 
+#menu ul{
+  overflow:hidden;
 }
 
 #menu li{
@@ -108,6 +111,9 @@ a:hover{
   margin:10px 0;
   border:solid 1px #AAA;
   border-radius:3px;
+  float:left;
+  clear:left;
+  overflow:hidden;
 }
 
 .esquerra h4 {
@@ -124,6 +130,72 @@ a:hover{
 .esquerra ul{
   margin-top:10px;
 }
+
+.dreta{
+  width:513px;
+  margin:10px 0;
+  border:solid 1px #AAA;
+  border-radius:3px;
+  float:right;
+  position:relative;
+  top:-597px;
+
+}
+
+
+#pensa ul{
+  background-color:#f5f6f8;
+  height:40px;
+  margin:0px;
+  padding:0px;
+}
+
+#pensa ul li{
+  float:left;
+  margin:5px 0px 0px 35px;
+  border-right:solid 1px #CCC;
+  font-size:14px;
+}
+
+#pensa ul li a{
+  display:block;
+  height:36px;
+  background-color:#f5f6f8;
+}
+
+#pensa ul li a:hover{
+  background-color:#f5f6f8;
+  background-image:url(../img/select.gif);
+  background-repeat:no-repeat;
+  background-position:50% 30px;
+}
+
+#pensa div{
+  background-color:orange;
+  height: 40px;
+}
+
+#pensa div input{
+  height:36px;
+  width:509px;
+}
+
+.comentari{
+  list-style-image:url("../img/icona_comentari.png");
+}
+
+.foto{
+  list-style-image:url("../img/icona_foto.png");
+}
+.ubicacio{
+  list-style-image:url("../img/icona_ubicacio.png");
+}
+.esdeveniment{
+  list-style-image:url("../img/icona_esdeveniment.png");
+}
+
+
+
 
 
 #presentacio li{
@@ -237,28 +309,33 @@ a:hover{
 
 }
 #a01{
-  background-image:url("../img/perfil.jpg");
+  background-image:url(https://fquispe2018.github.io/MP08/s2m8uf103_quispe/img/perfil.jpg);
+}
+
+#a01:hover{
+  url src:("https://jricart2018.github.io/MP08/s2m8uf103_ricart/index.html");
 }
 #a02{
-  background-image:url("../img/perfil.jpg")
+  background-image:url(https://rtirado.github.io/MP08/s2m8uf103_tirado/img/perfil.jpg)
 }
 #a03{
   background-image:url(https://npedraza2018.github.io/MP08/s2m8uf103_pedraza/img/perfil.jpg)
 }
 #a04{
-  background-image:url("../img/perfil.jpg")
+  background-image:url(https://ielmajidi2018.github.io/MP08/s2m8uf103_elmajidi/img/perfil.jpg)
 }
 #a05{
-  background-image:url("../img/perfil.jpg")
+  background-image:url(https://calvarez2018.github.io/MP08/s2m8uf103_alvarez/img/perfil.jpg)
 }
 #a06{
   background-image:url(https://jricart2018.github.io/MP08/s2m8uf103_ricart/img/perfil.jpg)
 }
+
 #a07{
-  background-image:url("../img/perfil.jpg")
+  background-image:url(https://acalvo2018.github.io/MP08/s2m8uf103_calvo/img/perfil.jpg)
 }
 #a08{
-  background-image:url("../img/perfil.jpg")
+  background-image:url(https://aganoza2018.github.io/MP08/s2m8uf103_ganoza/img/perfil.jpg)
 }
 #a09{
   background-image:url(https://amanchon2018.github.io/MP08/s2m8uf103_manchon/img/perfil.jpg)
@@ -266,4 +343,48 @@ a:hover{
 
 #amics h4{
   background-position: 0 -48px;
+}
+/*-------Estils del mur--------*/
+h5{
+  font-style:normal;
+  font-weight:normal;
+  padding:5px;
+  margin:0;
+  height:10px;
+}
+
+h6{
+  font-style:normal;
+  font-weight:normal;
+  padding:5px;
+  margin:0;
+  height:10px;
+}
+
+b{
+  color:#3B5998;
+}
+
+.postintro{
+  padding:10px;
+  padding:10px 10px 10px 50px;
+  background-image:url("../img/perfil.jpg");
+  background-repeat:no-repeat;
+  background-size: 40px;
+  background-position:10px 10px;
+}
+
+.post p{
+  font-size:12px;
+  padding:10px;
+}
+
+.post iframe{
+  padding:10px;
+}
+
+.post img{
+  padding:10px;
+  width:493px;
+  height:auto;
 }
